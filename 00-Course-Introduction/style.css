@@ -26,6 +26,39 @@ body, .jp-Notebook {
   max-width: 900px;
 }
 
+/* 7. Tables */
+table {
+  margin-left: auto;
+  margin-right: auto;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+th, td {
+  border: 1px solid #e5e7eb;
+  padding: 0.6rem 0.9rem;
+  text-align: center !important;
+  vertical-align: middle;
+}
+
+th {
+  background: #f9fafb;
+  color: #1d4ed8;
+  font-weight: 700;
+}
+
+td {
+  color: #0b132b;
+}
+
+tr:nth-child(even) td {
+  background: #fdfdfd;
+}
+
+tr:hover td {
+  background: #f9fafb;
+}
+
 /* Special cover card */
 .cover-card {
   padding: 3rem 2rem;
@@ -81,6 +114,7 @@ h3 {
 
 p {
   margin: 0 0 1rem 0;
+  text-align: justify;
 }
 
 a {
@@ -93,7 +127,7 @@ a:hover {
 
 strong { color: #1d4ed8; }
 em { font-style: normal; color: #374151; }
-code { direction: ltr; }
+code { direction: ltr; color: #9b4431}
 
 /* 4. Lists */
 ul, ol {
